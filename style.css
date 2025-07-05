@@ -1,0 +1,599 @@
+* {
+    margin: 0;
+    padding: 0;
+ } 
+ @media(max-width:100%){
+    .navbar{
+        padding: 10px;
+        width: 100%;
+        height: auto;
+    }
+.content{
+    background-position:center ;  
+}
+ }
+.main{
+    width: 100%;
+    background: url(massy.jpg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    font-family: 'Times New Roman', Times, serif
+    
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: #D32F2F;
+    font-size: 28px ;
+    font-family:'Times New Roman';
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+    font-weight: bolder;
+}.menu{
+    display: flex;
+    align-items: center;
+    margin-left: 170px;
+    width: 90%;
+    max-width: 1000px;
+    position: relative;
+    z-index: 10;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap:30px;
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    margin: 0.15px;
+}
+ul li a{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #9d4302;
+    transform: scale(1.2);
+    
+    
+}
+.search{
+    display:flex;
+    align-items: center;
+    z-index: 10;
+    flex-shrink: 0;
+    
+   
+    
+}
+.sEaRcH{
+    font-family: 'Times New Roman', Times, serif;
+    width: 200px;
+    height: 40px;
+    background:transparent;
+    border:1px solid;
+    margin-top: 13px;
+    color: rgb(225, 231, 230);
+    border-right: none;
+    
+    float: left;
+    font-size:16px;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    color: #222;
+    border: 2px solid white;
+    margin-top: 2px;
+    background: #ff4500;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+.btn:focus{
+   outline:none 
+}
+.sEaRcH:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height:auto;
+    margin: auto;
+    color: white;
+    position:absolute;
+    top:1%
+    
+}
+.content .paragraph{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family:'Times New Roman';
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-style: italic;
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    margin-top: 10%;
+
+}
+
+.content .connect{
+    width: 160px;
+    height: 40px;
+    background: #ff4500;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .connect a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.connect:hover{
+    background-color: white;
+}
+.content span{
+    color: #ff4500;
+    font: size 60px; ;
+}
+
+.layer{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.layer-color1{
+    background-color: #ff4500;
+    padding:15px 20px;
+    justify-content: flex-start;
+}
+.POWER{text-align: left;
+}
+.layer-color2{
+    background-image: url(messy.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    width: 103%;
+    height: 500px;
+}
+.layer-color3{
+    background-color: black;
+}
+.oneone{
+    font-style: italic;
+}
+.onetwo{
+    font-style: italic;
+}
+.menuu{
+    position: absolute;
+    top: 5%;
+    left:60%
+}
+
+.POWER{
+    color: #ff4500;
+}
+.content .connection{
+    width: 160px;
+    height: 40px;
+    background: #ff4500;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 870px;
+    margin-left: 1100px;
+
+}
+
+.content .connection a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.connection:hover{
+    background-color: white;
+}
+.content .connected{
+    width: 160px;
+    height: 40px;
+    background: #ff4500;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 870px;
+
+}
+
+.content .connected-two a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.connected:hover{
+    background-color: white;
+}  
+.gallery{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+.gallery img{
+    width: 100%;
+    height: 300px;
+    object-fit: 10px;
+    transition: transform 0.3 ease;
+
+} 
+.layer-color22{
+    background-image: url(messy.jpg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    width: 100%;
+    height: 500px; 
+}     
+.gallery img:hover{
+    transform: scale(1.05)
+
+}  
+.continent .connections{
+    width: 130px;
+    height: 40px;
+    background: #ff4500;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1100px;
+
+}
+
+.continent .connections a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.connections:hover{
+    background-color: white;
+}
+.continent .convex{
+    width: 130px;
+    height: 40px;
+    background: #ff4500;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 950px;
+
+}
+.continent .convex a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+
+}
+.convex:hover{
+    background-color: white;
+}    
+.ten{
+    text-align: center;
+}
+.sectiontitle{
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #ff4500;
+    text-align: left;
+}
+.process-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.process-step{
+    background-color: black;
+    border-radius: 10px;
+    width: 120px;
+    min-height: 180px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(255,140,0,0.4);
+    transition: all 0.3s ease;
+    color: white;
+    cursor: pointer;
+    text-align: left;
+}
+.process-step:hover{
+    background-color:#9d4302;
+}
+
+.step-title{
+    font-weight: bold;
+    font-size: 1.2em;
+    position:relative;
+    display: inline-block;
+}
+.Step-detail{
+    opacity: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin-top: 10px;
+    font-style: italic;
+}
+.process-step:hover  .Step-detail{
+    max-height: 100px;
+    opacity: 1;
+    
+}
+.concept .contact{
+        width: 160px;
+        height:40px;
+        background: #ff4500;
+        border: none;
+        font-size: 18px;
+        border-radius: 10px;
+        cursor: pointer;
+        position: absolute;
+        left: 85%;
+        top: 148%;
+    
+}
+.concept .contact a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}    
+
+.contact:hover{
+    background-color: white;
+
+}
+.concept .concave{
+    width: 160px;
+    height: 40px;
+    background: #ff4500;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 0%;
+    top:148%;
+
+
+}
+.concept .concave a{
+text-decoration: none;
+color: black;
+transition: .3s ease;
+}    
+
+.concave:hover{
+background-color: white;
+
+}
+.do{
+    font-size: 2.3em;
+    font-weight: bold;
+    color: #ff4500;
+    position: absolute;
+    top:40%
+}
+.DONT{
+    font-size: 1.05em;
+    font-style: italic;
+    color:#D32F2F;
+    line-height: 1.8;
+    margin-top: 0;
+}
+.me{
+    color: #ff4500;
+    font-weight: bolder;
+    position: absolute;
+    top :15%;
+    left: 3%;
+}
+.Ditchh{
+    font-style: italic;
+    color: #ff4500;
+    position: absolute;
+    top:21%;
+    left:5% ;
+}
+.form{
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 111, 0, 0.4);
+    width: 100%;
+    max-width: 400px;
+}
+input{
+    color: white;
+    width: 30%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1em;
+}
+textarea{
+    color: #ffff;
+    width: 65%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: transparent;
+    box-shadow:0 0 10px rgba(255, 111, 0, 0.4) ;
+    text-decoration-color: white;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+input[type= "text"]{
+    position: absolute;
+     background-color: transparent;
+     top: 40%;
+     left: 20%;
+
+}
+input[type= "email"]{
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    left:55% ;
+}
+input[type= "tel"]{
+    background-color: transparent;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+input[type= "address"]{
+    background-color: transparent;
+    position: absolute;
+    top: 55%;
+    left: 20%;
+
+}
+input[type = "submit"]{
+    background-color: #ff4500;
+    color: #ffff;
+    cursor: pointer;
+    transition: background 0.3s;
+    position: absolute;
+    top: 105%;
+    left: 35%;
+
+}
+input[type="submit"]:hover{
+    background-color: #e65c00;
+}
+.secondmain{
+    background-color: #e65c00;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.message-box{
+    background-color: #000;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+.message-box h1{
+    font-size: 40px;
+}
+.message-box p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.message-box a{
+    margin-top: 20px;
+    display:inline-block;
+    color: #000;
+    background-color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3 ease;
+}
+.message-box a:hover{
+    background-color: #e65c00;
+
+}
+.layer-color4{
+    background-image: url(messy.jpg.jpg);
+    background-size: cover;
+    background-position:center;
+    max-width:103%;
+    height: 100vh;
+    padding-bottom: 50px;
+}
+#welcomePopup{
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background-color: #ff4500;
+    color: #000;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    display: none;
+    z-index: 999;
+}
+.site-footer{
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+.gall-1{
+    position: absolute;
+    top: 63%;
+    left: 85%;
+    color: #e65c00;
+}
